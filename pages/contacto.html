@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Service-Net</title>
+  </head>
+  <body>
+    <header class="header">
+      <ul class="nav-links">
+        <li><a href="../index.html">Nosotros</a></li>
+        <li><a href="./servicio_tecnico.html">Servicio Técnico</a></li>
+        <li><a href="./redes.html">Redes</a></li>
+        <li><a href="./disenio_web.html">Diseño Web</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </header>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Russo+One&display=swap');
+    </style>
+    <h2 id="mensaje">Dejanos tu mensaje y te contactaremos a la brevedad:</h2>
+    <div id="img-separador">
+      <img />
+    </div>
+    <div id="fondo-contacto">
+    
+  <form id="registroForm" onsubmit="return validarFormulario()">
+    <label for="nombre" tipe="text" ></label>
+    <input type="text" id="nombre" placeholder=" Ingrese su nombre" required>
+    <br>
+    <br>
+
+    <label for="email" placeholder="e-m@il"></label>
+    <input type="email" id="email" placeholder=" e-m@il"required>
+    <br>
+    <br>
+    <label for="telefono"></label>
+    <input type="number" id="email" placeholder=" Telefono" required>
+    <br>
+    <br>
+    <textarea id="cuadro_dialogo" placeholder="  ¿Indicanos en qué podemos ayudarte? ">
+
+    </textarea>
+    <br>
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+
+</div>
+<script src="../js/logica.js"></script>
+
+    <footer class="footer">
+      <ol>
+        e - m@il: service-net@gmail.com
+      </ol>
+    </footer>
+    <div id="img-separador">
+      <img />
+    </div>
+  </body>
+</html>
