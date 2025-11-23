@@ -324,114 +324,54 @@ footer {
 }
 
 
-/*-------RESPONSIVE------*/
-@media screen and(max-width:1350px){
-  
-  .responsive{
-    max-width: 52em;
-    padding: 0 .6em;
-  }
-  body{
-    max-width: 52em;
-  }
-  .header{
-  
-    padding: 0 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly ;
-    
+@media (min-width: 768px) {
+
+  /* Header horizontal */
+  .nav-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
   }
 
-  .header .nav-links li{
-  
-    padding: 0 2em;
-    text-align: center;
-  }
-  .header .nav-links a{
-    padding: 0 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between ;
-  }
-  #titulo_home{
-    padding: 0 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around ;
-  }
-  #contenido-home-1{
-
-    padding: 0 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around ;
-  }
-  #img-home-2{
- 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around ;
-    align-content: center;
+  #titulo_home h1 {
+    font-size: 2.5rem;
   }
 
+  /* Layout home 1 */
+  #contenido-home-1 {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  /* Layout home 2 */
+  .in-flex-2 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #img-home-2 {
+    flex: 1;
+    height: 250px;
+  }
+
+  #articulo_home_2 {
+    flex: 1;
+  }
 }
-@media screen and(max-height:1150px){
-  .responsive{
-    max-width: 52em;
-    padding: 0 .6em;
-  }
-  body{
-    max-width: 52em;
-  }
-  .header{
-  
-    padding: 0 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly ;
-    
+
+/* ------------------- DESKTOP (>= 1024px) ------------------- */
+@media (min-width: 1024px) {
+  #titulo_home h1 {
+    font-size: 3rem;
   }
 
-  .header .nav-links li{
-  
-    padding: 0 2em;
-    text-align: center;
+  #contenido-home-1, 
+  #contenido-home-2 {
+    max-width: 1100px;
+    margin: auto;
   }
-  .header .nav-links a{
-    padding: 0 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between ;
-  }
-  #titulo_home{
-    padding: 0 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around ;
-  }
-  #contenido-home-1{
 
-    padding: 0 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around ;
+  #img-home-2 {
+    height: 300px;
   }
-  #contenido-home-2{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around ;
-    align-content: center;
-
-  }
-  
-  #img-home-2{
- 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around ;
-    align-content: center;
 }
-}
-/*----ANIMACIÓN---- */
