@@ -14,7 +14,7 @@ body {
 }
 
 /*MENU cabecera*/
-.header {
+header {
   background-image: url('/img/fondo_3.jpg');
   display:flex;
   margin-top: auto;
@@ -30,7 +30,7 @@ body {
 
 
 
-.header .nav-links {
+header .nav-links {
   background-color: none;
   list-style: none;
   margin-left: 50px;
@@ -38,7 +38,7 @@ body {
 
 }
 
-.header .nav-links li {
+header .nav-links li {
   
   display: inline-block;
  
@@ -48,7 +48,7 @@ body {
 }
 
 
-.header a {
+header a {
   font-family: "Russo One", sans-serif;
   background-color: none;
   font-size: 25px;
@@ -60,7 +60,7 @@ body {
   min-width:250px;
 }
 
-.header .nav-links li a:hover {
+header .nav-links li a:hover {
   color: rgb(19, 193, 48);
 }
 
@@ -373,6 +373,7 @@ footer {
     height: 300px;
   }
 }
+
 
 
 
