@@ -15,7 +15,7 @@ body {
 
 /*MENU cabecera*/
 header {
-  background-image: url('img/fondo_3.jpg');
+  background-image: url('./img/fondo_3.jpg');
   display:flex;
   margin-top: auto;
   align-content: auto;
@@ -373,6 +373,7 @@ footer {
     height: 300px;
   }
 }
+
 
 
 
