@@ -17,7 +17,7 @@ body {
 
 /*MENU cabecera*/
 .header {
-  background-image: url(/img/fondo_3.jpg);
+  background-image: url('/img/fondo_3.jpg');
   display:flex;
   margin-top: auto;
   align-content: auto;
@@ -71,7 +71,7 @@ body {
 
 #img-separador {
   
-  background-image: url("../img/fondo_1.jpg");
+  background-image: url('../img/fondo_1.jpg');
   margin: 0px;
   margin-left: 0px;
   margin-top: 5px;
@@ -155,7 +155,7 @@ h1 {
 }
 
 #img-home-2 {
-  background-image: url("../img/fondo_home.jpeg");
+  background-image: url('../img/fondo_home.jpeg');
   border-radius: 25px;
   box-shadow: 10px 14px 20px rgb(4, 4, 4);
   width: 700px;
@@ -187,7 +187,7 @@ h1 {
 }
 
 #img-servicio-1 {
-  background-image: url("../img/img_reparacion.jpg");
+  background-image: url('../img/img_reparacion.jpg');
   border-radius: 15px;
   box-shadow: 10px 14px 20px rgb(4, 4, 4);
   width: 600px;
@@ -212,7 +212,7 @@ h1 {
 }
 
 #img-redes-1 {
-  background-image: url("../img/redes_3.jpg");
+  background-image: url('../img/redes_3.jpg');
   border-radius: 15px;
   box-shadow: 10px 14px 20px rgb(4, 4, 4);
   margin-top: 10px;
@@ -232,7 +232,7 @@ h1 {
 }
 
 #img-disenio-1 {
-  background-image: url("../img/desarrollo_web_2.jpg");
+  background-image: url('../img/desarrollo_web_2.jpg');
   border-radius: 15px;
   box-shadow: 10px 14px 20px rgb(4, 4, 4);
   width: 600px;
@@ -256,7 +256,7 @@ h1 {
 }
 
 #img-disenio-2 {
-  background-image: url("../img/desarrollo_web.jpg");
+  background-image: url('../img/desarrollo_web.jpg');
   border-radius: 15px;
   box-shadow: 10px 14px 20px rgb(4, 4, 4);
   width: 600px;
@@ -283,7 +283,7 @@ h1 {
 
 #fondo-contacto{
 
-  background-image: url("../img/fondo_2.jpg");
+  background-image: url('../img/fondo_2.jpg');
   height: 1000px;
   
 }
@@ -375,3 +375,4 @@ footer {
     height: 300px;
   }
 }
+
