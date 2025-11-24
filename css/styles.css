@@ -267,11 +267,12 @@ h1 {
 /*----Contacto y Formulario-----*/
 
 #mensaje {
-  color: rgb(25, 21, 232);
+  color: rgb(18, 14, 235);
+  text-shadow: white 1px 1px 2px;
   margin-top: 20px;
   margin-left: 20px;
+  font-size: 30px;
 }
-
 #form {
 
   margin-top: 40px;
@@ -373,6 +374,7 @@ footer {
     height: 300px;
   }
 }
+
 
 
 
